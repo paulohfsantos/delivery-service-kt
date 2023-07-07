@@ -2,9 +2,15 @@
 
 ## Description
 
-This microservice is responsible for managing the delivery and purchasing of products.
+This service is responsible for managing the delivery of products.
 
 ## OBS:
-- This microservice is not ready yet
 - this project is using JDK 11
 - this project is using Spring Boot 2.7.14 SNAPSHOT
+
+## database (MySQL 8)
+create 2 databases:
+- delivery_db
+- purchasing_db
+
+### This project is under development, so it is not ready yet.
