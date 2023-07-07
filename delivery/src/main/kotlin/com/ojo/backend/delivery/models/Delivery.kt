@@ -14,8 +14,4 @@ data class Delivery(
 
     @Column(name = "delivery_status")
     var deliveryStatus: String = "",
-
-//    @ManyToOne(fetch = FetchType.LAZY)
-//    @JoinColumn(name = "delivery_address_id", nullable = false)
-//    var deliveryAddress: DeliveryAddress
 )

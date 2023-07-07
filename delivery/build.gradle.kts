@@ -35,21 +35,10 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.springframework.boot:spring-boot-starter-validation")
-//	implementation("org.springdoc:springdoc-openapi-ui:1.6.15")
-
 	implementation("mysql:mysql-connector-java:8.0.33")
-//	implementation("org.springdoc:spring-boot-springdoc:3.1.2")
-//	implementation("org.springdoc:spring-boot-springdoc:3.1.2")
-//	implementation("org.springdoc:springdoc-openapi-core:1.1.49")
-//	implementation("org.springdoc:spring-boot-springdoc:3.1.2")
-//	implementation("org.springdoc:springdoc-openapi-core:1.1.49")
-	// springfox swagger
-//	implementation("io.springfox:springfox-swagger2:2.9.2")
-//	implementation("io.springfox:springfox-swagger-ui:2.9.2")
-
 	// springdocs
 	implementation("org.springdoc:springdoc-openapi-ui:1.6.3")
-
+	implementation("org.springframework.boot:spring-boot-starter-webflux")
 	compileOnly("org.projectlombok:lombok")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	runtimeOnly("com.mysql:mysql-connector-j")
